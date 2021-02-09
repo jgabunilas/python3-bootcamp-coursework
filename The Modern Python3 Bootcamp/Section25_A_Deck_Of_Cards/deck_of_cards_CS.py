@@ -57,7 +57,7 @@ class Deck:
 
 
 d = Deck()
-d.shuffle()
+# d.shuffle()
 card = d.deal_card()
 print(card)
 hand = d.deal_hand(50)
@@ -67,6 +67,7 @@ print(d.cards)
 card2 = d.deal_card()
 
 # print(d.cards)
+
 
 
 
