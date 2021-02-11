@@ -1,3 +1,5 @@
+# Deck of Cards Objects Exercise
+## Written by Jason Gabunilas
 import random
 
 
