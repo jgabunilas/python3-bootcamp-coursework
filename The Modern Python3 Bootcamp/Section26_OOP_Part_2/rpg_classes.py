@@ -1,5 +1,6 @@
 # Role-playing game classes exercise
 
+# Character class (parent class)
 class Character:
         def __init__(self, name, hp, level):
                 self.name = name
