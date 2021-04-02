@@ -24,3 +24,7 @@ html = """
 soup = BeautifulSoup(html, "html.parser")
 d = soup.select(".special")[0]
 print(d)
+d2 = soup.select("[data-example]")
+print(d2)
+d3 = soup.select("[data-example = 'no']")
+print(d3)
