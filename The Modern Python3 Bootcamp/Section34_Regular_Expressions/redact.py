@@ -1,0 +1,9 @@
+import re
+text = "Last night Mrs. Daisy and Mr. White murdered Ms. Chow"
+
+pattern = re.compile(r'(Mr.|Mrs.|Ms.) ([a-z])[a-z]+', re.I)
+result_1 = pattern.findall(text)
+result = pattern.sub("\g<1> \g<2>", text)
+print(result_1)
+print(result)
+
