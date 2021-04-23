@@ -13,3 +13,8 @@ def remove_every_other(input_list):
 print(remove_every_other([1,2,3,4,5]))
 print(remove_every_other([5,1,2,4,1]))
 print(remove_every_other([1]))
+
+# Instructor's solution
+# utilizes the enumerate() function, takes an iterable and converts it to an enumerate object that consists of an iterable of tuples containing (index, value) of that item in the original iterable
+#     def remove_every_other(lst):
+#         return [val for i,val in enumerate(lst) if i % 2 == 0]
