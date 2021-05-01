@@ -19,3 +19,8 @@ def min_max_key_in_dictionary(dict):
 
 print(min_max_key_in_dictionary({2:'a', 7:'b', 1:'c',10:'d',4:'e'}))
 print(min_max_key_in_dictionary({1: "Elie", 4:"Matt", 2: "Tim"}))
+
+# Instructor solution
+# def min_max_key_in_dictionary(d):
+#     keys = d.keys()
+#     return [min(keys), max(keys)]

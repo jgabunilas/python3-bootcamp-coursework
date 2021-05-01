@@ -8,7 +8,7 @@ def find_greater_numbers(nums_list):
         # Initialize a counter that counts how many times the number we are testing is followed by a larger number across the remainder of the list
         larger_numbers = 0
 
-        # Iterate through every number in the list
+        # Iterate through every number in the list. This is the "number under test"
         for num in nums_list:
                 # print(f"Currently testing {num}")
 
