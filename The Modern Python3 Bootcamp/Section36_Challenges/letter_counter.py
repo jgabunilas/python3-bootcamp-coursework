@@ -1,4 +1,4 @@
-# This function accepts a string and returns a function. When the inner function is invoked, it accepts a parameter which is a letter, and the inner function returns the number of times that letter appears. The inner function should be case insensitive.
+# This function accepts a string and returns af function. When the inner function is invoked, it accepts a parameter which is a letter, and the inner function returns the number of times that letter appears. The inner function should be case insensitive.
 
 def letter_counter(input_str):
 
