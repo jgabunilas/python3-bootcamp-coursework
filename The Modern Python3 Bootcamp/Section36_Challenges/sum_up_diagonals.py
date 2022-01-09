@@ -28,7 +28,7 @@ def sum_up_diagonals(matrix):
                 second_diag_sum += item[j]
                 # Then decrement the index position by 1
                 j -= 1
-        # Sum both diagonals together
+        # Sum both diagonals together and return it
         return first_diag_sum + second_diag_sum
 
 list1 = [
