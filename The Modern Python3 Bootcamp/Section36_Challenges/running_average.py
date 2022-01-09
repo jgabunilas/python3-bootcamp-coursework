@@ -7,7 +7,7 @@ def running_average():
 
         # Define the nested function which will do all the heavy lifting. 
         def averager(number):
-                # In order to access the total and total_nums variables from the enclosing function, they must be defined as nonlocal here so that the nested function knows to refer to previously bound variables in the nearest enclising scope.
+                # In order to access the total and total_nums variables from the enclosing function, they must be defined as nonlocal here so that the nested function knows to refer to previously bound variables in the nearest enclosing scope.
                 nonlocal total
                 nonlocal total_nums
 
@@ -18,7 +18,7 @@ def running_average():
                 total += number
                 return round(total / total_nums, 2)
 
-        # The nested function must be returned when the enclosign function is called
+        # The nested function must be returned when the enclosing function is called
         return averager
 
 rAvg = running_average()
